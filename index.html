@@ -3,6 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+      .contact {
+        display: inline-block;
+        background-color: #000;
+        color: #fff;
+        width: 120px;
+        height: 20px;
+        border-radius: 50%;
+        text-align: center;
+      }
+      .kinhnghiem {
+        text-align: right;
+        padding: 10px;
+      }
+      .Duan {
+        text-align: left;
+        padding: 10px;
+      }
+    </style>
   </head>
   <header>
     <div id="header1">
@@ -88,15 +107,69 @@
 
         <!-- Thông tin cá nhân -->
         <div>
-          <p style="font-size: 24px; font-weight: bold; margin-bottom: 5px">
+          <p
+            style="
+              font-size: 24px;
+              font-weight: bold;
+              margin-bottom: 5px;
+              border-left: 1px solid #000;
+            "
+          >
             Trần Hữu Bá Long
           </p>
-          <p style="margin: 5px 0">Mã phát triển: CNTT 02</p>
+          <p style="margin: 5px 0; border-left: 1px solid #000">
+            <b>Mã phát triển: CNTT 02</b>
+          </p>
           <ul style="margin: 5px 0; padding-left: 20px">
-            <li>SĐT: 0326470485</li>
-            <li>Email:Longkissto@gmail.com</li>
-            <li>Website:xxxxx</li>
+            <span class="contact">SĐT:</span>
+            0326470485
+            <p><span class="contact">Email:</span>Longkissto@gmail.com</p>
+            <p><span class="contact">Website:</span>xxxxx</p>
           </ul>
+        </div>
+      </div>
+      <div
+        id="ngaythangnamsinh"
+        style="
+          background-color: cadetblue;
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px;
+          display: flex;
+          flex-direction: row;
+        "
+      >
+        <div style="width: 300px">
+          <ul>
+            <li>Sống tại: TP. Hồ Chí Minh</li>
+            <li>SĐT: 0985580102</li>
+            <li>
+              Khoa Kỹ Thuật Công nghệ - Trường ĐH Hùng Vương TP. Hồ Chí Minh
+            </li>
+          </ul>
+        </div>
+
+        <div style="padding-left: 50px; border-left: 1px solid #000">
+          <p><b>GIỚI THIỆU BẢN THÂN</b></p>
+          <p style="font-style: italic">
+            Xin chào các bạn. Mình tên là Lão Gia. Đam mê của mình là phát triển
+            phần mềm
+          </p>
+        </div>
+      </div>
+      <div
+        id="kinhnghiem"
+        style="
+          background-color: cadetblue;
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px;
+          display: flex;
+          flex-direction: row;
+        "
+      >
+        <div style="width: 1000px">
+          <p class="kinhnghiem"><b> KINH NGHIỆM </b></p>
         </div>
       </div>
     </div>
